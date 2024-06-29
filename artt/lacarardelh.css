@@ -1,0 +1,76 @@
+*{
+    box-sizing: 0; margin: 0; padding: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+label{
+    text-align: left;
+}
+
+input
+{
+
+    width: 90%;
+    height: 35px;
+    margin: 15px;
+    border: 1.5px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: 5px;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+   input {
+         width: 90%;
+       }
+   
+   }
+
+   img{
+    width: 20%; 
+   }
+
+
+   
+
+   img.log2{
+    width: 150px ; padding: 10px;
+}
+
+
+
+   
+
+.typsub{ padding: 10px 100px; border-radius: 20px;
+    background: rgb(41, 136, 252); color: white; font-size: 14pt;
+  border: none;    cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+  }
+  
+
+   
+
+   .performancelog {
+margin: 10px; width: 40%; 
+    padding: 10px;  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.616);
+    background-color: rgb(255, 255, 255);
+
+}@media screen and (max-width: 600px) {
+    .performancelog {
+          width: 90%;
+        }
+    }  body{
+        background-color: rgb(250, 254, 255);
+    }
+
+    input:focus{
+        border-color:  #0c8dfe; /* Cambiar el color del borde cuando se selecciona */
+        outline: none;
+        
+        
+        transition: border-color 0.4s ease-in-out; /* Transición de color */}
